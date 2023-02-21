@@ -1,1 +1,67 @@
+div input,
+select {
+  line-height: 40px;
+  height: 40px;
+}
+div textarea {
+  line-height: 40px;
+}
 
+.error-message {
+  padding: 5px 0;
+  color: red;
+}
+.button-submit {
+  margin-left: 30%;
+  width: 100px;
+  background-color: brown;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.group-checkbox {
+  flex-direction: column;
+  padding: 0;
+}
+.group-checkbox div {
+  align-items: center;
+  padding: 0;
+}
+
+.group-checkbox input {
+  height: 20px;
+}
+.group-radio {
+  padding: 0;
+  display: flex;
+}
+.group-radio div {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.group-radio input {
+  width: unset;
+  padding: 0;
+}
+
+.control-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-input {
+  display: flex;
+  align-items: flex-end;
+}
+.checkbox-input input {
+  width: 30px;
+}
+
+.checkbox-input label {
+  width: 30px;
+
+  padding: 0 20px;
+}

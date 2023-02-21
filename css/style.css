@@ -1,0 +1,58 @@
+* {
+  font-family: "Dancing Script", cursive;
+}
+body {
+  margin: 0;
+}
+
+/* Header style*/
+
+header {
+  position: relative;
+}
+.container-slide {
+  width: 100% !important;
+}
+header img {
+  height: auto;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  color: white !important;
+  background-color: #baa16fab;
+  top: 15%;
+  padding: 15px 0;
+  z-index: 1;
+}
+
+.navbar-inverse {
+  background-color: white !important;
+  border-color: white !important;
+  color: brown !important;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: pink !important;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: brown !important;
+}
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: pink !important;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: brown !important;
+  font-size: 25px !important;
+}
+
+/* Main style*/
+
+main {
+  /* padding: 50px 20%; */
+  color: brown !important;
+}

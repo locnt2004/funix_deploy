@@ -1,0 +1,38 @@
+/* mobile*/
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 17px !important;
+  }
+  .btn-form-submit {
+    background-color: brown !important;
+    color: white !important;
+    font-size: 17px !important;
+  }
+
+}
+
+/* tablets */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 20px !important;
+  }
+  .btn-form-submit {
+    background-color: brown !important;
+    color: white !important;
+    font-size: 20px !important;
+  }
+
+}
+
+/* desktops*/
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 22px !important;
+  }
+  .btn-form-submit {
+    background-color: brown !important;
+    color: white !important;
+    font-size: 22px !important;
+  }
+
+}
